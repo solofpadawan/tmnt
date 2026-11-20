@@ -1,0 +1,1 @@
+{"name":"tmnt-desktop","version":"1.0.0","private":true,"main":"main.js","description":"TMNT arcade HTML5 remake","author":"Saulo Padovan","scripts":{"start":"electron ."},"devDependencies":{"@electron/packager":"^20.3.0","electron":"^45.2.1"}}

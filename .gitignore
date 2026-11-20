@@ -1,0 +1,49 @@
+# ROMs and binary dumps (never commit)
+roms/
+*.zip
+*.rom
+*.bin
+*.nv
+assets_extracted/
+web/assets/
+
+# Copyrighted / ROM-derived reference material and screenshots
+ref/
+previews/
+web/img/
+*.bak
+*.bak-*
+*~
+
+# Secrets
+turn_config.php
+.env
+.env.*
+
+# Live signaling / room state (keep only static templates)
+web/net/rooms/*
+!web/net/rooms/.htaccess
+!web/net/rooms/index.html
+!web/net/rooms/_list.json
+
+# Build artifacts, deps, test output
+node_modules/
+dist/
+/out/
+desktop/out/
+desktop/web/
+desktop/web/**
+desktop/node_modules/
+*-itch.zip
+cfg/
+nvram/
+diff/
+inp/
+snap/
+__pycache__/
+run/*.bin
+run/out/
+test/logs/
+test/userdata/
+test/*.log
+*.log
