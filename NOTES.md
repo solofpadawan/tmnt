@@ -84,5 +84,3 @@ unscramble from PROM 963a30; Z80 sound, K007232, uPD7759, title-music samples ke
 - `desktop/build.sh semrom` -> `dist/desktop/TMNT-win64-<stamp>.zip`: web = itch zip (make_itch.py, TMNT_PUBLIC, ROM-free check). ROM cached in IndexedDB (origin app://game). Shareable.
 - `desktop/build.sh pessoal` -> `...-pessoal-<stamp>.zip`: web/ + roms/tmnt.zip. PERSONAL ONLY, never git/itch/share.
 - Needs npm i + wine (rcedit). Test: fill desktop/web, `xvfb-run -a python3 test/test_desktop.py <userdata> <prompt 0|1>`. Invite links use location.href (app://) in desktop: share the room name.
-
-- 2026-11-04: web/index.html carries Open Graph tags (og:url/og:image -> http://localhost:8080/tmnt_web/, absolute localhost) and web/img/thumb.png (1200x630). Keep them on redeploy.
